@@ -21,7 +21,7 @@
         body {
             margin-left: auto;
             margin-right: auto;
-            width: 1400px;
+            /* max-width: 1400px; R更改 */
             display: flex;
         }
         nav {
@@ -36,50 +36,139 @@
 
 <body>
     <nav id="sidebar">
-        <div class="city">City</div>
-        <div class="city">City</div>
-        <div class="city">City</div>
-        <div class="city">City</div>
-        <div class="city">City</div>
-        <div class="city">City</div>
-        <div class="city">City</div>
-        <div class="city">City</div>
-        <div class="city">City</div>
-        <div class="city">City</div>
-        <div class="city">City</div>
-        <div class="city">City</div>
-        <div class="city">City</div>
-        <div class="city">City</div>
-        <div class="city">City</div>
-        <div class="city">City</div>
-        <div class="city">City</div>
-        <div class="city">City</div>
-        <div class="city">City</div>
-        <div class="city">City</div>
-        <div class="city">City</div>
-        <div class="city">City</div>
+        <div class="city">基隆市</div>
+        <div class="city">臺北市</div>
+        <div class="city">新北市</div>
+        <div class="city">桃園市</div>
+        <div class="city">新竹市</div>
+        <div class="city">新竹縣</div>
+        <div class="city">苗栗縣</div>
+        <div class="city">臺中市</div>
+        <div class="city">彰化縣</div>
+        <div class="city">南投縣</div>
+        <div class="city">雲林縣</div>
+        <div class="city">嘉義市</div>
+        <div class="city">嘉義縣</div>
+        <div class="city">臺南市</div>
+        <div class="city">高雄市</div>
+        <div class="city">屏東縣</div>
+        <div class="city">臺東縣</div>
+        <div class="city">花蓮縣</div>
+        <div class="city">宜蘭縣</div>
+        <div class="city">澎湖縣</div>
+        <div class="city">金門縣</div>
+        <div class="city">連江縣</div>
     </nav>
     <main id="wrap">
         <div class="header">
             <!-- <h1>City</h1> -->
         </div>
         <div id="content">
-            <!-- <div>
-                <h4>早上</h4>
-                <p>平均溫度 XX</p>
-                <p>最高溫度 XX</p>
-                <p>最低溫度 XX</p>
-                <p>紫外獻指數 XX</p>
-                <p>12小時降雨機率 XX%</p>
-                <p>天氣現象 XXXXX</p>
-                <h4>晚上</h4>
-                <p>平均溫度 XX</p>
-                <p>最高溫度 XX</p>
-                <p>最低溫度 XX</p>
-                <p>紫外獻指數 XX</p>
-                <p>12小時降雨機率 XX%</p>
-                <p>天氣現象 XXXXX</p>
-            </div> -->
+            <!-- <div class="week">
+                <div class="week-up">
+                    <h3 class="week-tx1">6月9日</h3>
+                    <h4 class="week-tx1-1">早上</h4>
+                    <p class="week-tx">平均溫度 XX</p>
+                    <p class="week-tx">最高溫度 XX</p>
+                    <p class="week-tx">最低溫度 XX</p>
+                    <p class="week-tx">紫外獻指數 XX</p>
+                    <p class="week-tx">12小時降雨機率 XX%</p>
+                    <p class="week-tx">天氣現象 XXXXX</p>
+                </div>
+                <div class="week-down">
+                    <h4 class="week-tx1-1">晚上</h4>
+                    <p class="week-tx">平均溫度 XX</p>
+                    <p class="week-tx">最高溫度 XX</p>
+                    <p class="week-tx">最低溫度 XX</p>
+                    <p class="week-tx">紫外獻指數 XX</p>
+                    <p class="week-tx">12小時降雨機率 XX%</p>
+                    <p class="week-tx">天氣現象 XXXXX</p>
+                </div>
+            </div>
+            <div class="week">
+                <div class="week-up">
+                    <h3 class="week-tx1">6月10日</h3>
+                    <h4 class="week-tx1-1">早上</h4>
+                    <p class="week-tx">平均溫度 XX</p>
+                    <p class="week-tx">最高溫度 XX</p>
+                    <p class="week-tx">最低溫度 XX</p>
+                    <p class="week-tx">紫外獻指數 XX</p>
+                    <p class="week-tx">12小時降雨機率 XX%</p>
+                    <p class="week-tx">天氣現象 XXXXX</p>
+                </div>
+                <div class="week-down">
+                    <h4 class="week-tx1-1">晚上</h4>
+                    <p class="week-tx">平均溫度 XX</p>
+                    <p class="week-tx">最高溫度 XX</p>
+                    <p class="week-tx">最低溫度 XX</p>
+                    <p class="week-tx">紫外獻指數 XX</p>
+                    <p class="week-tx">12小時降雨機率 XX%</p>
+                    <p class="week-tx">天氣現象 XXXXX</p>
+                </div>
+            </div>
+            <div class="week">
+                <div class="week-up">
+                    <h3 class="week-tx1">6月11日</h3>
+                    <h4 class="week-tx1-1">早上</h4>
+                    <p class="week-tx">平均溫度 XX</p>
+                    <p class="week-tx">最高溫度 XX</p>
+                    <p class="week-tx">最低溫度 XX</p>
+                    <p class="week-tx">紫外獻指數 XX</p>
+                    <p class="week-tx">12小時降雨機率 XX%</p>
+                    <p class="week-tx">天氣現象 XXXXX</p>
+                </div>
+                <div class="week-down">
+                    <h4 class="week-tx1-1">晚上</h4>
+                    <p class="week-tx">平均溫度 XX</p>
+                    <p class="week-tx">最高溫度 XX</p>
+                    <p class="week-tx">最低溫度 XX</p>
+                    <p class="week-tx">紫外獻指數 XX</p>
+                    <p class="week-tx">12小時降雨機率 XX%</p>
+                    <p class="week-tx">天氣現象 XXXXX</p>
+                </div>
+            </div>
+            <div class="week">
+                <div class="week-up">
+                    <h3 class="week-tx1">6月12日</h3>
+                    <h4 class="week-tx1-1">早上</h4>
+                    <p class="week-tx">平均溫度 XX</p>
+                    <p class="week-tx">最高溫度 XX</p>
+                    <p class="week-tx">最低溫度 XX</p>
+                    <p class="week-tx">紫外獻指數 XX</p>
+                    <p class="week-tx">12小時降雨機率 XX%</p>
+                    <p class="week-tx">天氣現象 XXXXX</p>
+                </div>
+                <div class="week-down">
+                    <h4 class="week-tx1-1">晚上</h4>
+                    <p class="week-tx">平均溫度 XX</p>
+                    <p class="week-tx">最高溫度 XX</p>
+                    <p class="week-tx">最低溫度 XX</p>
+                    <p class="week-tx">紫外獻指數 XX</p>
+                    <p class="week-tx">12小時降雨機率 XX%</p>
+                    <p class="week-tx">天氣現象 XXXXX</p>
+                </div>
+            </div>
+            <div class="week">
+                <div class="week-up">
+                    <h3 class="week-tx1">6月13日</h3>
+                    <h4 class="week-tx1-1">早上</h4>
+                    <p class="week-tx">平均溫度 XX</p>
+                    <p class="week-tx">最高溫度 XX</p>
+                    <p class="week-tx">最低溫度 XX</p>
+                    <p class="week-tx">紫外獻指數 XX</p>
+                    <p class="week-tx">12小時降雨機率 XX%</p>
+                    <p class="week-tx">天氣現象 XXXXX</p>
+                </div>
+                <div class="week-down">
+                    <h4 class="week-tx1-1">晚上</h4>
+                    <p class="week-tx">平均溫度 XX</p>
+                    <p class="week-tx">最高溫度 XX</p>
+                    <p class="week-tx">最低溫度 XX</p>
+                    <p class="week-tx">紫外獻指數 XX</p>
+                    <p class="week-tx">12小時降雨機率 XX%</p>
+                    <p class="week-tx">天氣現象 XXXXX</p>
+                </div>
+            </div>    -->
         </div>
     </main>
     <script src="js/weather.js"></script>
