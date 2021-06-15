@@ -2,9 +2,9 @@
 4 people teamwork
 
 工作分配:  
- * 李百凱:nav.css common.css-導覽列呈現效果,超連結效果  
- * 林威儒:weather.js-資料整理及Ajax帶入資料  
- * 曾怡瑄:main.css-主要天氣內容呈現效果  
+ * 李百凱(PaiKai-Lee) : nav.css common.css-導覽列呈現效果,超連結效果  
+ * 林威儒(aru0828) : weather.js-資料整理及Ajax帶入資料  
+ * 曾怡瑄(wanwan1026) : main.css-主要天氣內容呈現效果  
  
 流程:  
  1. 先討論協作選項:  
